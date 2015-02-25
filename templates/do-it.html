@@ -1,0 +1,26 @@
+
+
+        <img src="http://s3.amazonaws.com/coolchaser.com/thumb-19281001.jpg">
+        <h1>JUST DO IT</h1>
+        <form class = "task-form">
+            <div>
+                <input type="text" name="taskname">
+            </div>
+            <button>+</button>
+        </form>
+        <ul>
+          <% data.each(function(d){ %>
+            <li><a href="#item/<%= d.get("tasks")%>">
+                <span><%= d.get("tasks") %></span>
+                <input type="checkbox">
+            </a></li>
+            <%})%>
+         <!--    <li>
+                <span>Shower</span>
+                <input type="checkbox">
+            </li>
+            <li>
+                <span>Eat</span>
+                <input type="checkbox">
+            </li> -->
+        </ul>
