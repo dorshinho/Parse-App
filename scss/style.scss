@@ -78,3 +78,90 @@ img {max-width:100%;}
 body {
     transition: opacity .25s ease;
 }
+img {max-width:100%;}
+
+body {
+    transition: opacity .25s ease;
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+
+}
+
+ h1 {
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+   text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 80ch;
+    background-color: #FFF;
+    border: 2px solid #444;
+    margin: 0 auto;
+
+    form {
+
+        padding: 1em;
+        position: relative;
+
+        div {
+            position: relative;
+            margin-right: 4em;
+
+            input {
+                width: 100%;
+                padding: 1em;
+                border: 1px solid #444;
+            }
+        }
+
+        button {
+            display: inline-block;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 3rem;
+            height: 3.2rem;
+            background-color: #444;
+            color: white;
+            font-size: 2em;
+            line-height: 1em;
+            border: none;
+        }
+    }
+button:hover {
+    opacity: 0.8;
+}
+
+    ul {
+        padding-left: 1em;
+        list-style: none;
+
+        li {
+            border-bottom: 1px solid #444;
+            position: relative;
+
+            span {
+                display: inline-block;
+                padding: 1em 3em 1em 0;
+                width: 100%;
+            }
+
+            &:last-child {
+                border-bottom-width: 0px;
+            }
+
+            input[type="checkbox"] {
+                position: absolute;
+                top: 1em;
+                right: 1em;
+
+            }
+        }
+    }
+}
